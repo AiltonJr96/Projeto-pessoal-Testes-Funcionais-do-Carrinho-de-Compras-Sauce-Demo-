@@ -35,3 +35,15 @@ Não foram realizados testes relacionados a:
 - Banco de dados;
 - Responsividade em dispositivos móveis;
 - Compatibilidade com outros navegadores.
+
+  ## 🖥️ Ambiente de Testes
+
+| Item | Informação |
+|---|---|
+| Aplicação | Sauce Demo |
+| Módulo testado | Carrinho de compras |
+| Sistema operacional | Windows 11 |
+| Navegador | Google Chrome |
+| Tipo de teste | Teste manual |
+| Idioma observado | Inglês/Portugues |
+| Moeda observada | GBP (£) |
