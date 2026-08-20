@@ -47,3 +47,40 @@ Não foram realizados testes relacionados a:
 | Tipo de teste | Teste manual |
 | Idioma observado | Inglês/Portugues |
 | Moeda observada | GBP (£) |
+
+## 🧪 Estratégia de Testes
+
+Para a validação do módulo de carrinho de compras, foram executados testes manuais utilizando diferentes abordagens, buscando verificar tanto comportamentos esperados quanto possíveis falhas da aplicação.
+
+As estratégias utilizadas foram:
+
+### ✅ Testes positivos
+Validação de funcionalidades que devem funcionar corretamente.
+
+Exemplos:
+- Adicionar produtos ao carrinho;
+- Remover produtos;
+- Remover todos os produtos;
+- Validar o cálculo do valor total.
+
+### ❌ Testes negativos
+Validação de comportamentos que devem ser impedidos pelo sistema.
+
+Exemplos:
+- Tentar adicionar quantidade igual a zero.
+
+### 🔄 Testes de atualização
+Validação do comportamento do carrinho após alterações nos produtos e quantidades.
+
+Exemplos:
+- Alterar quantidade de 1 → 2;
+- Alterar quantidade de 2 → 1;
+- Adicionar múltiplas unidades do mesmo produto.
+
+### 💰 Testes de cálculo e valores
+Validação dos valores individuais e do valor total do carrinho.
+
+Exemplos:
+- Soma dos produtos;
+- Atualização dos subtotais;
+- Atualização do valor total do carrinho.
