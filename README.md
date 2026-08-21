@@ -119,3 +119,19 @@ Após alterar a quantidade de um produto, a quantidade exibida é atualizada, po
 Após adicionar um produto ao carrinho, o carrinho não é carregado automaticamente ao clicar no ícone correspondente. É necessário atualizar manualmente a página utilizando F5 para que o carrinho seja carregado.
 
 **Casos relacionados:** CT-003 e CT-009.
+
+## 🔗 Matriz de Rastreabilidade
+A matriz abaixo relaciona os casos de teste executados aos defeitos identificados durante a execução.
+
+| Caso de Teste | Resultado | Bug relacionado |
+|---|---|---|
+| CT-001 | PASS | N/A |
+| CT-002 | PASS | N/A |
+| CT-003 | FAIL | BUG-03 |
+| CT-004 | PASS | N/A |
+| CT-005 | PASS | N/A |
+| CT-006 | FAIL | BUG-02 |
+| CT-007 | FAIL | BUG-02 |
+| CT-008 | PASS | N/A |
+| CT-009 | FAIL | BUG-02 / BUG-03 |
+| CT-010 | FAIL | BUG-02 |
