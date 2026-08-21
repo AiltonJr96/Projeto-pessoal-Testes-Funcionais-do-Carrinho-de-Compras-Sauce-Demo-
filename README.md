@@ -155,15 +155,3 @@ A matriz abaixo relaciona os casos de teste executados aos defeitos identificado
 └── evidencias/
     ├── README.md
     └── arquivos PNG das evidências
-
-
-⚠️ **Importante:** não copie os três acentos graves externos dentro de outro bloco de código. No GitHub, deixe exatamente como no exemplo acima, com o bloco começando em ` ```text` e terminando em ` ``` `.
-
----
-
-# 💾 4. Salvar
-
-Na mensagem de commit coloque:
-
-```text
-docs: adicionar links para documentação do projeto
