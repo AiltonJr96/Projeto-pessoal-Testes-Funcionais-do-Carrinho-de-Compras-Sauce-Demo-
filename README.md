@@ -135,3 +135,35 @@ A matriz abaixo relaciona os casos de teste executados aos defeitos identificado
 | CT-008 | PASS | N/A |
 | CT-009 | FAIL | BUG-02 / BUG-03 |
 | CT-010 | FAIL | BUG-02 |
+
+## 📂 Documentação
+
+- 📋 [Casos de Teste](./casos-de-teste/casos-de-teste-carrinho.xlsx)
+- 🐞 [Bug Reports](./bug-reports/BUG%20REPORT%20SAUCE%20DEMO.xlsx)
+- 📸 [Evidências de Testes](./evidencias/)
+
+- ## 📁 Estrutura do Projeto
+
+```text
+├── README.md
+├── casos-de-teste/
+│   ├── README.md
+│   └── casos-de-teste-carrinho.xlsx
+├── bug-reports/
+│   ├── README.md
+│   └── BUG REPORT SAUCE DEMO.xlsx
+└── evidencias/
+    ├── README.md
+    └── arquivos PNG das evidências
+
+
+⚠️ **Importante:** não copie os três acentos graves externos dentro de outro bloco de código. No GitHub, deixe exatamente como no exemplo acima, com o bloco começando em ` ```text` e terminando em ` ``` `.
+
+---
+
+# 💾 4. Salvar
+
+Na mensagem de commit coloque:
+
+```text
+docs: adicionar links para documentação do projeto
