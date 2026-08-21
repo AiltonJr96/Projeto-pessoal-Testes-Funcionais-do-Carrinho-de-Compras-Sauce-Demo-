@@ -84,3 +84,20 @@ Exemplos:
 - Soma dos produtos;
 - Atualização dos subtotais;
 - Atualização do valor total do carrinho.
+
+## 📊 Resultados dos Testes
+
+Foram executados 10 casos de teste durante a validação do módulo de carrinho de compras.
+| Métrica | Resultado |
+|---|---:|
+| Casos de teste executados | 10 |
+| Casos aprovados (PASS) | 4 |
+| Casos reprovados (FAIL) | 6 |
+| Bugs identificados | 2 |
+| Taxa de aprovação | 40% |
+| Taxa de falha | 60% |
+
+### Resumo
+
+Dos 10 casos executados, 4 apresentaram comportamento conforme o esperado e 6 apresentaram falhas.
+As principais falhas identificadas estão relacionadas ao carregamento do carrinho e à atualização dos valores após alterações na quantidade de produtos.
