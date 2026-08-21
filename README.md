@@ -101,3 +101,21 @@ Foram executados 10 casos de teste durante a validação do módulo de carrinho 
 
 Dos 10 casos executados, 4 apresentaram comportamento conforme o esperado e 6 apresentaram falhas.
 As principais falhas identificadas estão relacionadas ao carregamento do carrinho e à atualização dos valores após alterações na quantidade de produtos.
+
+## 🐞 Bugs Encontrados
+Durante a execução dos testes, foram identificados dois defeitos principais no módulo de carrinho de compras.
+
+| ID | Descrição | Severidade | Prioridade | Status |
+|---|---|---|---|---|
+| BUG-02 | Valor total não é atualizado após alteração da quantidade | Média | Alta | Aberto |
+| BUG-03 | Carrinho não abre após adicionar produto sem atualizar a página | Média | Alta | Aberto |
+
+### BUG-02 — Atualização do valor do carrinho
+Após alterar a quantidade de um produto, a quantidade exibida é atualizada, porém o valor do carrinho não é recalculado automaticamente. É necessário atualizar a página utilizando F5 ou pressionar Enter para que o valor seja atualizado.
+
+**Casos relacionados:** CT-006, CT-007, CT-009 e CT-010.
+
+### BUG-03 — Carregamento do carrinho
+Após adicionar um produto ao carrinho, o carrinho não é carregado automaticamente ao clicar no ícone correspondente. É necessário atualizar manualmente a página utilizando F5 para que o carrinho seja carregado.
+
+**Casos relacionados:** CT-003 e CT-009.
