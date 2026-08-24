@@ -91,15 +91,15 @@ Foram executados 10 casos de teste durante a validação do módulo de carrinho 
 | Métrica | Resultado |
 |---|---:|
 | Casos de teste executados | 10 |
-| Casos aprovados (PASS) | 4 |
-| Casos reprovados (FAIL) | 6 |
+| Casos aprovados (PASS) | 5 |
+| Casos reprovados (FAIL) | 5 |
 | Bugs identificados | 2 |
-| Taxa de aprovação | 40% |
-| Taxa de falha | 60% |
+| Taxa de aprovação | 50% |
+| Taxa de falha | 50% |
 
 ### Resumo
 
-Dos 10 casos executados, 4 apresentaram comportamento conforme o esperado e 6 apresentaram falhas.
+Dos 10 casos executados, 5 apresentaram comportamento conforme o esperado e 6 apresentaram falhas.
 As principais falhas identificadas estão relacionadas ao carregamento do carrinho e à atualização dos valores após alterações na quantidade de produtos.
 
 ## 🐞 Bugs Encontrados
