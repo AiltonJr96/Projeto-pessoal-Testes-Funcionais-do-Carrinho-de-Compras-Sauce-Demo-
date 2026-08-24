@@ -142,7 +142,8 @@ A matriz abaixo relaciona os casos de teste executados aos defeitos identificado
 - 🐞 [Bug Reports](./bug-reports/BUG%20REPORT%20SAUCE%20DEMO.xlsx)
 - 📸 [Evidências de Testes](./evidencias/)
 
-- ## 📁 Estrutura do Projeto
+```markdown
+## 📁 Estrutura do Projeto
 
 ```text
 ├── README.md
