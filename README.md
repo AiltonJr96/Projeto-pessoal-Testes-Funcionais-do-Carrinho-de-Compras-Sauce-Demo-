@@ -155,3 +155,18 @@ A matriz abaixo relaciona os casos de teste executados aos defeitos identificado
 └── evidencias/
     ├── README.md
     └── arquivos PNG das evidências
+
+## 📝 Conclusão
+A execução dos testes funcionais permitiu validar diferentes comportamentos do módulo de carrinho de compras, incluindo adição e remoção de produtos, alteração de quantidades e validação dos valores apresentados.
+
+Foram executados 10 casos de teste, sendo:
+
+- 5 casos aprovados;
+- 5 casos reprovados;
+- 2 defeitos identificados e documentados.
+
+Os principais problemas encontrados estão relacionados ao carregamento do carrinho e à atualização dos valores após alterações na quantidade de produtos.
+
+Os defeitos foram documentados nos Bug Reports, juntamente com seus respectivos passos para reprodução, comportamento esperado, comportamento obtido e evidências.
+
+O projeto também possui uma matriz de rastreabilidade relacionando os casos de teste aos defeitos encontrados.
