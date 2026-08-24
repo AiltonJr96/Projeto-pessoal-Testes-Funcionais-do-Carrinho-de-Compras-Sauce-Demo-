@@ -142,21 +142,6 @@ A matriz abaixo relaciona os casos de teste executados aos defeitos identificado
 - 🐞 [Bug Reports](./bug-reports/BUG%20REPORT%20SAUCE%20DEMO.xlsx)
 - 📸 [Evidências de Testes](./evidencias/)
 
-```markdown
-## 📁 Estrutura do Projeto
-
-```text
-├── README.md
-├── casos-de-teste/
-│   ├── README.md
-│   └── casos-de-teste-carrinho.xlsx
-├── bug-reports/
-│   ├── README.md
-│   └── BUG REPORT SAUCE DEMO.xlsx
-└── evidencias/
-    ├── README.md
-    └── arquivos PNG das evidências
-
 ## 📝 Conclusão
 A execução dos testes funcionais permitiu validar diferentes comportamentos do módulo de carrinho de compras, incluindo adição e remoção de produtos, alteração de quantidades e validação dos valores apresentados.
 
