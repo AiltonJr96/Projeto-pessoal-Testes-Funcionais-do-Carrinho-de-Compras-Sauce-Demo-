@@ -156,3 +156,18 @@ Os principais problemas encontrados estão relacionados ao carregamento do carri
 Os defeitos foram documentados nos Bug Reports, juntamente com seus respectivos passos para reprodução, comportamento esperado, comportamento obtido e evidências.
 
 O projeto também possui uma matriz de rastreabilidade relacionando os casos de teste aos defeitos encontrados.
+
+```markdown
+## 📁 Estrutura do Projeto
+
+```text
+├── README.md
+├── casos-de-teste/
+│   ├── README.md
+│   └── casos-de-teste-carrinho.xlsx
+├── bug-reports/
+│   ├── README.md
+│   └── BUG REPORT SAUCE DEMO.xlsx
+└── evidencias/
+    ├── README.md
+    └── arquivos PNG das evidências
