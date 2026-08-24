@@ -45,7 +45,7 @@ Não foram realizados testes relacionados a:
 | Sistema operacional | Windows 11 |
 | Navegador | Google Chrome |
 | Tipo de teste | Teste manual |
-| Idioma observado | Inglês/Portugues |
+| Idioma observado | Inglês/Português |
 | Moeda observada | GBP (£) |
 
 ## 🧪 Estratégia de Testes
